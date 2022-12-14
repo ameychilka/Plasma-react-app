@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+#input {
+  width: 18rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+.grid {
+  display: flex;
+  margin: 2rem;
+  background-color: aliceblue;
+  padding: 1rem;
+}
+.heads {
+  position: absolute;
+  left: 2rem;
+  top: 5rem;
+}
+#buttn {
+  position: absolute;
+  right: 1rem;
+  top: 5rem;
+}
+.headsinposts {
+  left: 2rem;
+  top: 5rem;
+  margin: 2rem;
+  font-size: 24px;
+}
+#ticks {
+  font-size: 10px;
+  text-align: left;
+  width: 24rem;
+  margin: 1rem;
+}
+.Alignments {
+  text-align: left;
+  font-size: 16px;
+  margin: 3rem;
+}
+
+.h2 {
+  display: inline;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 24px;
+  margin-top: 0.4rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+}
+#icon {
+  width: 2.2rem;
+  height: 2rem;
+  margin-top: 0.2rem;
+}
+.logodiv {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 800px) {
+  .heads {
+    position: absolute;
+    left: 2rem;
+    font-size: 18px;
+    top: 8rem;
+  }
+  #input {
+    align-items: initial;
+    width: 18rem;
+    margin-top: 2.6rem;
+  }
+  #buttn {
+    position: absolute;
+    right: 1rem;
+    top: 5rem;
+  }
+  .headsinposts {
+    font-size: 18px;
+    left: 2rem;
+    top: 3rem;
+  }
+  .h2 {
+    font-size: 18px;
+    margin-left: 2rem;
+  }
+  #icon {
+    width: 2.4rem;
+    height: 1.9rem;
+    margin-top: -0.4rem;
+    margin-left: 2rem;
+  }
+
+  .logodiv {
+    margin-left: -2rem;
+    margin-top: 0.4rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  #input {
+    width: 18rem;
+    align-items: center;
+    margin-top: 6rem;
+  }
+  #icon{
+    margin-left: 2rem;
+    width: 2.4rem;
+  }
+  #buttn {
+    position: absolute;
+    right: 1rem;
+    top: 4rem;
+  }
+  .grid {
+    margin: 10px;
+  }
+  #ticks {
+    width: 18rem;
+  }
+  .Alignments {
+    text-align: left;
+    font-size: 16px;
+    margin: 1rem;
+  }
+}
